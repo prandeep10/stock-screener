@@ -1,0 +1,68 @@
+/* Styles for the Home.js component */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .filter-input {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-input label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .filter-input input {
+    padding: 8px;
+    font-size: 1rem;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .data-table th {
+    background-color: #313296;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .data-table td {
+    background-color: #f4f4f4;
+  }
+  
+  .data-table th:hover {
+    background-color: #4b6cfc;
+  }
+  
